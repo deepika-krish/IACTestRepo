@@ -7,21 +7,20 @@ namespace IACTestRepo
         static void Main(string[] args)
         {
             ConsoleAdd calculator = new ConsoleAdd();
-            double addResult = calculator.Add(13.5, 6.3);
-            Console.WriteLine($"Direct calculation: 13.5 + 6.3 = {addResult}");
+            double addResult = calculator.Add(24.5, 6.3);
+            Console.WriteLine($"Direct calculation: 24.5 + 6.3 = {addResult}");
 
             ConsoleSub calculatorSub = new ConsoleSub();
-            double subResult = calculatorSub.Subtract(13.5, 6.3);
-            Console.WriteLine($"Direct calculation: 13.5 - 6.3 = {subResult}");
+            double subResult = calculatorSub.Subtract(24.5, 6.3);
+            Console.WriteLine($"Direct calculation: 24.5 - 6.3 = {subResult}");
             
             ConsoleMul calculatorMul = new ConsoleMul();
-            double mulResult = calculatorMul.Multiply(13.5, 6.3);
-            Console.WriteLine($"Direct calculation: 13.5 * 6.3 = {mulResult}");
-
+            double mulResult = calculatorMul.Multiply(24.5, 6.3);
+            Console.WriteLine($"Direct calculation: 24.5 * 6.3 = {mulResult}");
             ConsoleDiv calculatorDiv = new ConsoleDiv();
-            double divResult = calculatorDiv.Divide(13.5, 6.3);
-            Console.WriteLine($"Direct calculation: 13.5 / 6.3 = {divResult}");
-            
+            double divResult = calculatorDiv.Divide(24.5, 6.3);
+            Console.WriteLine($"Direct calculation: 24.5 / 6.3 = {divResult}");
+
         }
     }
 }

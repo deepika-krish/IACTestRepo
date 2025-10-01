@@ -7,8 +7,8 @@ namespace IACTestRepo
         static void Main(string[] args)
         {
             ConsoleAdd calculator = new ConsoleAdd();
-            double addResult = calculator.Add(10.5, 5.3);
-            Console.WriteLine($"Direct calculation: 10.5 + 5.3 = {addResult}");
+            double addResult = calculator.Add(11.5, 6.3);
+            Console.WriteLine($"Direct calculation: 11.5 + 6.3 = {addResult}");
 
             ConsoleSub calculatorSub = new ConsoleSub();
             double subResult = calculatorSub.Subtract(10.5, 5.3);

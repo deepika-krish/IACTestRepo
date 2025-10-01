@@ -7,6 +7,7 @@ namespace IACTestRepo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World - TEST!");
+            Console.WriteLine("Training Day 1");
         }
     }
 }

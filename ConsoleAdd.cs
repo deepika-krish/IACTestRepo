@@ -6,28 +6,17 @@ namespace IACTestRepo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Addition Calculator");
-            Console.WriteLine("==================");
-            
-            // Get first number from user
+            Console.WriteLine("Addition Calculator\n==================");
             Console.Write("Enter the first number: ");
             string input1 = Console.ReadLine();
-            
-            // Get second number from user
             Console.Write("Enter the second number: ");
             string input2 = Console.ReadLine();
             
             try
             {
-                // Convert inputs to double for decimal support
                 double num1 = Convert.ToDouble(input1);
                 double num2 = Convert.ToDouble(input2);
-                
-                // Calculate the sum
-                double result = num1 + num2;
-                
-                // Display the result
-                Console.WriteLine($"\nResult: {num1} + {num2} = {result}");
+                Console.WriteLine($"\nResult: {num1} + {num2} = {num1 + num2}");
             }
             catch (FormatException)
             {

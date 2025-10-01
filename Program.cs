@@ -15,12 +15,12 @@ namespace IACTestRepo
             Console.WriteLine($"Direct calculation: 11.5 - 6.3 = {subResult}");
 
             ConsoleMul calculatorMul = new ConsoleMul();
-            double mulResult = calculatorMul.Multiply(10.5, 5.3);
-            Console.WriteLine($"Direct calculation: 10.5 * 5.3 = {mulResult}");
+            double mulResult = calculatorMul.Multiply(11.5, 6.3);
+            Console.WriteLine($"Direct calculation: 11.5 * 6.3 = {mulResult}");
 
             ConsoleDiv calculatorDiv = new ConsoleDiv();
-            double divResult = calculatorDiv.Divide(10.5, 5.3);
-            Console.WriteLine($"Direct calculation: 10.5 / 5.3 = {divResult}");
+            double divResult = calculatorDiv.Divide(11.5, 6.3);
+            Console.WriteLine($"Direct calculation: 11.5 / 6.3 = {divResult}");
             
         }
     }
